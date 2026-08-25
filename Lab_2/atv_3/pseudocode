@@ -1,0 +1,10 @@
+input: v1, v2, v3, v4, v5                  # f, g, h, i, j
+output: v1                                 # valor modificado de f
+
+if (v4 == v5) {
+    v1 = v2 + v3                           # f = g + h
+} else {
+    v1 = v2 - v3                           # f = g - h 
+}
+
+# aqui sao feitas as modificações nos valores
